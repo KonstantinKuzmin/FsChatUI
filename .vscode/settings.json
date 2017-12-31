@@ -1,0 +1,21 @@
+{
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"node_modules": true,
+		"lib": true,
+		"dist": true
+	},
+	"editor.autoIndent": true,
+	"editor.tabCompletion": true,
+	"editor.renderIndentGuides": true,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": true,
+	"editor.renderWhitespace": "boundary",
+	"files.insertFinalNewline": true,
+	"csscomb.preset": "csscomb.json",
+	"typescript.format.insertSpaceAfterTypeAssertion": true
+}

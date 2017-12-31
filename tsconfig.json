@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"target": "es5",
+		"lib": ["es5", "dom"],
+		"outDir": "lib",
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"declaration": true,
+		"jsx": "react",
+		"paths": {
+			"react": ["./node_modules/@types/react/index"]
+		}
+	},
+	"files": [
+		"index.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"lib"
+	]
+}
